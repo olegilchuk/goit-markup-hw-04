@@ -82,7 +82,6 @@ body {
 .header .container{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
     padding-left: 15px;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -235,6 +234,11 @@ body {
     height: 404px;
     border: 1px solid #EEEEEE;
     margin: var(--section-mr) 0 0 var(--section-mr);
+    
+}
+
+.price-img-link-pic{
+    width: 100%;
 }
 
 .price-list-title{

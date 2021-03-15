@@ -231,6 +231,7 @@ body {
 .list-description{
     display: flex ;
     align-items: center;
+    justify-content: center;
 }
 
 .list-description-title:not(:last-child){
@@ -245,7 +246,10 @@ body {
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: var(--section-mr);
-    padding: 25px 100px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .description-icon{
